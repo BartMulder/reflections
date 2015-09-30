@@ -1,0 +1,9 @@
+- Using a file compare tool makes it more efficient to isolate differences and identify potential bugs.
+- Version Control allows you to trace back all the changes over time. By comparing version, it becomes easier to identify the change that introduced a bug.
+How can you use the commands git log and git diff to view the history of files?
+- git log lists all commits in reverse chronological order, with a short description of the change
+- git diff compares two commit id's and shows the insertions and deletions
+How might using version control make you more confident to make changes that could break something?
+- VC allows you to go back to any commited version of your code. If you introduce a bug, you can always go back.
+Now that you have your workspace set up, what do you want to try using Git for?
+- Version controling my first Udacity Android project!! Woo-hoo!
