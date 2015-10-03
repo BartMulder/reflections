@@ -7,3 +7,6 @@ How is the staging area different from the working directory and the repository?
 
 ISSUE
 - I can't get sublime to open the right .git/COMMIT_EDITMSG, why? -> blijkbaar moet een wijziging van de core.editor altijd via git config --replace-all gebeuren, anders pakt ie niet...
+
+How can you use the staging area to make sure you have one commit per logical change?
+- By adding only the files that belong to a logical change to the staging area and leave others that may have been touched for other reasons in the working directory.
