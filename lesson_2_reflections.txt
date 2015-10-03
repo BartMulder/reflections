@@ -4,3 +4,6 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 - The working directory contains the versions of the files belonging to the commit that was last checked out. It can also include additional files, not 
 (yet) tracked by git. Files can be modified in the working directory. A snapshot of a file can be added to the staging area, which means that snapshot will be included in the next commit. A file can have three states: modified, staged or commited.
+
+ISSUE
+- I can't get sublime to open the right .git/COMMIT_EDITMSG, why?
