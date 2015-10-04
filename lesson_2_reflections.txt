@@ -20,3 +20,7 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 - All the changes in the respective branches are merged into one commit. It is shown in chronological order because that gives you the best overview.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- Pros: Efficient; avoids manual mistakes
+- Cons: Some conflicts are not detected by just comparing lines, especially when they occur more on the logical level of the program
