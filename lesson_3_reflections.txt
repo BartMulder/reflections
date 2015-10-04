@@ -1,1 +1,8 @@
 When would you want to use a remote repository rather than keeping all your work local?
+- Pros: remote copy serves as backup; allows you to co-operate with others; allows you to work on different computers; allows you to share your work
+- Cons: requires an extra step to keep everything in sync
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+- Because remote changes could have been made by other contributers. You want to be in control of when and how to incorporate those into your local work.
+
+
