@@ -13,3 +13,6 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 -	A shared directory, but then you would have to do version tracking manually, plus there would be no/limited support for comparing changes and merging. Also collaboration features would have to be set up in an alternate way, like a discussion forum or some such thing. In other words, a headache.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+-	Well, by supplying changes on separate branches, these changes can be incorporated into the master branch in a controlled way. Supplying changes directly into the master branche would make the quality unpredictible and conflicts/bugs much harder to trace. Dealing with merge conflicts directly in the master branch makes the master branch unstable for other contributors, plus resolving merge conflicts from multiple branches directly in the master branch sounds like a major pain in the ass to me. Finally, every pull request provides a clear point of documentation of what changed to the master branch.
